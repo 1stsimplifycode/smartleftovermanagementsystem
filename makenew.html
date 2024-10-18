@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Culinary Journey</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+            background-image: url('food.jpg'); /* Replace this with your image path */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container {
+            text-align: center;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+            padding: 50px;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin-bottom: 20px; /* Adjusted for spacing */
+            line-height: 1.5; /* Increased line height for better readability */
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap; /* Makes buttons wrap if screen size is small */
+        }
+
+        .btn {
+            background-color: #f04e30;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            margin: 10px 0;
+        }
+
+        .btn:hover {
+            background-color: #e03e20;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Discover Our Culinary Creations</h1>
+        <p>
+            We strive to connect food entrepreneurs with customers. <br>
+            Our mission is to reduce food waste and provide delicious meals for everyone— <br>
+            from the rich and middle class to those in need. <br>
+            Meals are available for our regular customers from <strong>6 AM to 9 PM</strong>. <br>
+            For those in need, we serve meals from <strong>9 PM to 5 AM</strong>. <br>
+            Join us in our culinary journey, where creativity meets community support!
+        </p>
+        
+        <div class="button-container">
+            <a href="https://smart-recipe-generator.vercel.app/Home" class="btn">Recipe Maker</a>
+            <a href="https://fit-grocery.vercel.app/" class="btn">Buy Groceries</a>
+            <a href="https://letseat-gold.vercel.app/home" class="btn">Deliver Food to Your Location</a>
+        </div>
+    </div>
+</body>
+</html>
+
+
